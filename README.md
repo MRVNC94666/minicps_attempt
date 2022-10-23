@@ -1,7 +1,7 @@
 # NCKU_CANS_RiverCPS
 This is a project of a testbed to collect relevant data sets to support machine learning requirements, such as training models and analyzing attacks, etc.
 
-Install mininet 2.3.0 (python 2)
+Install mininet 2.3.0 (python 3)
 
 ```
 git clone https://github.com/mininet/mininet
