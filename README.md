@@ -1,4 +1,4 @@
-# NCKU_CANS_RiverCPS
+# NCKU_CANS_minicps
 This is a project of a testbed to collect relevant data sets to support machine learning requirements, such as training models and analyzing attacks, etc.
 
 Install mininet 2.3.0 (python 3)
@@ -41,5 +41,9 @@ Then minicps is good to go !
 
 # Research history
 
-22/10/23 11:40 > Figure out how to set up environment on linux pc with python3. (Not using the vm ubuntu server version approach.) 
-22/10/23 11:48 > Open `minicps/examples/swat-s1/logs/README.md` while the swat example is running, the pc die. 
+22/10/23 11:40 Figure out how to set up environment on linux pc with python3. (Not using the vm ubuntu server version approach.) 
+22/10/23 11:48 Open `minicps/examples/swat-s1/logs/README.md` while the swat example is running, the pc die.
+22/10/23 15:10 Try to create a sqlite BD for swat-s1 with `sudo python3 init.py` in `~/minicps/examples/swat-s1`
+22/10/23 15:20 Encounter an error says `SyntaxError: Missing parenthese in call to 'print'. Did you mean print('DEBUG set_query:',set_query)?`
+22/10/23 15:30 Edit the `state.py` with `sudo gedit /usr/local/lib/python3.8/dist-packages/minicps/states.py`, complete every `print()` and `expect()` function. Then run `init.py` again.
+22/10/23 17:30 Research stop due to the change of direction of my study. 
