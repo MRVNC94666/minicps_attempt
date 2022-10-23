@@ -3,7 +3,7 @@ This is a project of a testbed to collect relevant data sets to support machine 
 
 Install mininet 2.3.0 (python 2)
 
-```cli
+```terminal
 git clone https://github.com/mininet/mininet
 
 cd mininet
