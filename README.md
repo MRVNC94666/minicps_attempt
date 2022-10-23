@@ -41,5 +41,5 @@ Then minicps is good to go !
 
 # Research history
 
-22-1023 11:40 > Figure out how to set up environment on linux pc with python3. (Not using the vm ubuntu server version approach.) 
-22-1023 11:48 > Open `minicps/examples/swat-s1/logs/README.md` while the swat example is running, the pc die. 
+22/10/23 11:40 > Figure out how to set up environment on linux pc with python3. (Not using the vm ubuntu server version approach.) 
+22/10/23 11:48 > Open `minicps/examples/swat-s1/logs/README.md` while the swat example is running, the pc die. 
